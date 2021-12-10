@@ -1,0 +1,585 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* font-family: Arial, Helvetica, sans-serif; */
+  }
+  /* -------------------------------nav bar---------------------------- */
+  
+
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    justify-content: space-between;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.7s;
+    font-weight: 600;
+
+  }
+  .topnav a.menu_color{
+      color: orange;
+      font-weight: 600;
+  }
+  
+  .topnav a:hover {
+    color:orange;
+  }
+  
+  .topnav a.active {
+    color: orange;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    float: left;
+    padding-right: 50%;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  /* -------------------------navbar end-------------------------- */
+
+
+  .header{
+      background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('img/flag.jpg');
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+  }
+  .topnav{
+      background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+
+  }
+  .main_text h1{
+    /* text-align: center; */
+    margin-top: 22vh;
+    margin-left: 10%;
+    font-family: 'Kaushan Script', cursive;
+    color: #efefef;
+    font-size: 60px;
+    text-shadow: 0 11px 6px #000;
+  }
+  .color{
+      color: orange;
+      font-size: 85px;
+  }
+  
+  .main_para{
+    font-family: 'Poppins', sans-serif;
+    width: 47%;
+    margin-left: 10%;
+    padding-left: 15px;
+    font-weight: 600;
+  }
+  .btn{
+      /* text-align: center; */
+      margin-top: 20px;
+      margin-left: 11%;
+  }
+.btn a{
+    text-decoration: none !important;
+    border-radius: 20px;
+    color: #000;
+    border: 1px solid orange;
+    background: orange;
+    padding: 12px 24px;
+    box-shadow: 0 1px 7px orange;
+    align-items: center;
+    transition: 0.7s;
+}
+.btn a:hover{
+    color: white;
+    background: transparent;
+
+    
+}
+
+/* --------------------------------------second section ----------------------------------------- */
+
+.second_section{
+    width: 100%;
+    height: 93vh;
+}
+.info_logo{
+    text-align: center;
+    cursor: default;
+}
+.info_logo h1{
+    font-size: 50px;
+    padding-top: 30px;
+    font-family: 'Kaushan Script', cursive;
+    color: orange;
+    text-shadow: 0 7px 7px #000;
+}
+.info_logo p{
+    font-size: 20px;
+    margin-bottom: 110px;
+}
+.box{
+    text-align: center;
+    border: 1px solid #efefef;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0px 7px #efefef ;
+    transition: 0.9s;
+    cursor: pointer;
+
+}
+.box:hover{
+    background: #efefef;
+    box-shadow: 0 0px 7px #000 ;
+    
+}
+.box h1{
+    color: orange;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 25px;
+    font-weight: 600;
+    text-shadow: 0 7px 7px #000;
+}
+.box h1 a{
+    color: orange;
+    text-decoration: none;
+}
+.box:hover.box h1 a{
+    letter-spacing: 1px;
+}
+.box h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px
+}
+
+/* ----------------------------president----------------------------- */
+.president_info{
+    width: 100%;
+    height: 90vh;
+}
+.president-info{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.info{
+    width: 60%;
+}
+.info h1{
+    padding-bottom: 30px;
+    font-weight: 700;
+    color: orange;
+    text-shadow: 0 7px 7px #000;
+
+}
+.img{
+    width: 40%;
+    text-align: right;
+}
+/* ------------------------uni pics-------------------------------- */
+
+.uni_pics{
+    width: 100%;
+    height: 140vh;
+}
+.uni_pics h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 7px 7px #000;
+    padding-bottom: 50px;
+    color: orange;
+    font-weight: 700;
+}
+.uni-img{
+    width: 100%;
+    padding-bottom: 25px;
+}
+.uni-img img{
+    width: 100%;
+}
+/* ------------------------footer------------------------------ */
+.footer_info{
+    background: orange;
+    padding-top: 10px;
+}
+.curser h6{
+    cursor: pointer;
+}
+
+/* -----------------------------Leaders new page------------------------------------------ */
+
+.leader_logo h1{
+    text-align: center;
+    padding-top: 30px;
+    color: orange;
+    text-shadow: 0 7px 7px #000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+
+}
+.header{
+    height: 100vh;
+    width: 100%;
+}
+.leader_nme h1{
+    text-align: center;
+    padding: 30px 0;
+    color: orange;
+    font-weight: 700;
+    padding-bottom: 70px;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0 7px 7px #000;
+    font-size: 50px;
+}
+.first_leader{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+.first_leader_info{
+    width: 60%;
+    margin-right: 30px;
+}
+.first_leader_info p{
+    padding-top: 20px;
+}
+.first_leader_img{
+    width: 30%;
+    text-align: right;
+}
+.last_img img{
+    width: 100%;
+}
+
+/* ---------------------------------contact us------------------------------------ */
+
+
+.home_info h2{
+    text-transform: uppercase;
+}
+.red_color{
+    color: red;
+    font-size: 70px;
+}
+.contact{
+    width: 100%;
+    background: #efefef;
+    height: 130vh;
+}
+.contact_info{
+    width: 80%;
+    margin: auto;
+}
+.contact_info h1{
+    font-size: 50px;
+    text-shadow: 0 3px 5px #000;
+    color: orange;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.contact_table{
+
+    width: 75%;
+    margin: auto;
+}
+.form{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+}
+.contact_box{
+    margin: 15px 0px;
+    padding: 1rem;
+    border: 1px solid orange;
+    outline: none;
+    background: transparent;
+    border-radius: 8px;
+    color: #fff;
+}
+::placeholder{
+    font-size: 15px;
+    color: #000;
+    padding-left: 5px;
+}
+:focus{
+    background: orange;
+}
+.contact_table a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid orange;
+    padding: 8px 45px;
+    background: orange;
+    border-radius: 5px;
+    margin-left: 240px;
+    box-shadow: 0 0 20px #efefef ;
+    transition: 0.7s;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+
+}
+.contact_table a:hover{
+    background: transparent;
+    color: #000;
+    text-decoration: none !important;
+    box-shadow: 0 1px 7px orange;
+
+}
+.last_box{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+.nav_btn{
+    display: none;
+}
+
+/* -----------------------------------area---------------------------------------------- */
+
+.ares{
+    width: 100%;
+    height: auto;
+}
+.heading h1{
+    padding: 40px 50px 0;
+    color: orange;
+    font-weight: 700;
+    text-shadow: 0 7px 7px #000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+.areas_types{
+    width: 65%;
+    margin-left: 100px;
+}
+.areas_types h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    text-shadow:0 1px 7px #000;
+    padding-top: 50px;
+}
+.areas_types img{
+    width: 100%;
+    padding: 50px 0;
+}
+
+/* ---------------------------universty----------------------------- */
+.universty{
+    width: 100%;
+    height: auto;
+}
+.uni_name h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: orange;
+    font-size: 60px;
+    padding: 40px 0;
+    font-weight: 700;
+    text-shadow: 0 7px 7px #000;
+}
+.uni h1{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0 7px 7px #000;
+    padding-bottom: 30px;
+}
+.uni_img{
+    width: 70%;
+    margin: auto;
+
+}
+.uni_img img{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ----------------------------------------------------resposive--------------------------------------- */
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .first_leader_img img{
+        width: 70%;
+    }
+    .header{
+        height: auto;
+    }
+    .universty{
+        height: auto;
+    }
+    .footer_info{
+        height: auto;
+    }
+    .leaders{
+        height: auto;
+    }
+    .second_section{
+        height: auto;
+    }
+    .president_info{
+        height: auto;
+    }
+    .uni_pics{
+        height: auto;
+    }
+    .img img{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+   
+}  
+@media(max-width:1470px)  {
+    .topnav a.active {
+        
+        padding-right: 43%;
+
+      }
+}
+@media(max-width:920px){
+    .topnav a.active {
+        
+        padding-right: 0%;
+      }
+} 
+@media(max-width:741px){
+    .topnav a{
+        font-size: 15px
+    }
+      }
